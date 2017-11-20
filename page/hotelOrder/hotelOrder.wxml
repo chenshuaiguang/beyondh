@@ -1,0 +1,100 @@
+<!--page/hotelOrder/hotelOrder.wxml-->
+<view class='wraaper'>
+  <view class='ordering'>
+    <view class='orederNum'>
+      <view>
+        <text>预订单号：</text>
+        <text>12390</text>
+      </view>
+      <view class='upIcon'>
+      </view>
+    </view>
+    <view style='padding:0 20rpx;'>
+      <view class='orederAccount'>
+        <view>
+          <text>订单总价：</text>
+          <text class='redColor'>12390</text>
+        </view>
+        <view class='seaFontColor'>
+          预定中
+        </view>
+      </view> 
+    </view>
+    <view class='hotelNameView'>
+      <view class='hotelName'>安吉安吉酒店</view>
+      <view>
+        <text style='margin-right:25rpx;'>标准双人间</text>
+        <text>1间</text>
+      </view>
+    </view>
+    <view class='hotelTimeView'>
+      <view class='hotelTime'>09-23 至 09-24</view>
+      <view>
+        <text>共1晚</text>
+      </view>
+    </view>
+  </view>
+<!--已退房  -->
+  <view class='ordering'>
+    <view class='orederNum'>
+      <view>
+        <text>预订单号：</text>
+        <text>12390</text>
+      </view>
+      <view class='upIcon'>
+      </view>
+    </view>
+    <view style='padding:0 20rpx;'>
+      <view class='orederAccount'>
+        <view>
+          <text>订单总价：</text>
+          <text class='redColor'>12390</text>
+        </view>
+        <view class='greenFontColor'>
+          在住中
+        </view>
+      </view> 
+    </view>
+    <view class='hotelNameView'>
+      <view class='hotelName'>安吉安吉酒店</view>
+      <view>
+        <text style='margin-right:25rpx;'>标准双人间</text>
+        <text>1间</text>
+      </view>
+    </view>
+    <view class='hotelTimeView'>
+      <view class='hotelTime'>09-23 至 09-24</view>
+      <view>
+        <text>共1晚</text>
+      </view>
+    </view>
+    <view class='whiteView'>
+    </view>
+    <view class='orederAccount'>
+      <view>
+        <text>订单总价：</text>
+        <text class='redColor'>12390</text>
+      </view>
+      <view class='blackFontColor'>
+        已退房
+      </view>
+    </view>
+    <view class='hotelNameView'>
+      <view class='hotelName'>安吉安吉酒店</view>
+      <view>
+        <text style='margin-right:25rpx;'>标准双人间</text>
+        <text>1间</text>
+      </view>
+    </view>
+    <view class='hotelTimeView'>
+      <view class='hotelTime'>09-23 至 09-24</view>
+      <view>
+        <text>共1晚</text>
+      </view>
+    </view> 
+  </view> 
+  <view class='attendView'>
+    <view class='yellowIcon'></view>
+    <view>仅显示近3个月的订单</view>
+  </view>
+</view>

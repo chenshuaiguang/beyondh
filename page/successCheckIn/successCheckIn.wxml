@@ -1,0 +1,41 @@
+<!--page/successCheckIn/successCheckIn.wxml-->
+<view class='wrapper'>
+  <view class='cardView'>
+    <view class='topSection'>
+      <view class='roomView'>
+        <view class='sFont'>房号</view>
+        <view class='bFont'>1001</view>
+      </view>
+      <view class='peoName'>
+        <view class='sFont'>入住人</view>
+        <view class='bFont'>张三</view>
+      </view>
+    </view>
+    <view class='bottomSection'>
+      <view class='roomType'>
+        <text>豪华房豪华房豪华房豪华房豪华房华房豪华房华房豪华房</text>
+        <text style='margin-left:30rpx;'>1间</text>
+      </view>
+      <view class='iconBox'>
+        <view class='leftCircle'></view>
+        <view class='midDashed'></view>
+        <view class='rightCircle'></view>
+      </view>
+      <view class='dateTime'>
+        <text>9月23至9月25日</text>
+        <text>共2晚</text>
+      </view>
+    </view>
+  </view>
+  <view class='iconView'>
+    <view class='iconCard'></view>
+    <view>
+      <view>入住成功！</view>
+      <view>请到前台领取房卡。</view>
+    </view>
+  </view>
+  <view class='btnBox'>  
+      <button class='purpleBtn' type="default">发票预约</button>
+      <button class='grayBtn' type="default">返回</button>
+  </view>
+</view>

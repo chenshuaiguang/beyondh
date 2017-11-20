@@ -1,0 +1,13 @@
+<!--page/successCheckOut/successCheckOut.wxml-->
+<view>
+  <view class='imgBox'>
+    <view class='img'>
+    </view>
+  </view>
+  <view class='textView'>
+    <text>预约成功！请到前台领取发票。</text>
+  </view>
+  <view class='btnBox'>  
+      <button class='purpleBtn' type="default">知道了</button>
+  </view>
+</view> 

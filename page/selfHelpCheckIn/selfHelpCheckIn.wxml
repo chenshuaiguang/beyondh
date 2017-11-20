@@ -1,0 +1,118 @@
+<!--page/selfHelpCheckIn/selfHelpCheckIn.wxml-->
+<view>
+  <view class='hasBackgroundView'>
+    <view class='hasBackgroundFlex titleView'>
+      <text>安吉西山居酒店</text>
+      <image src='../../images/drop.png' class='dropImg'></image>
+    </view>
+    <view class='hasBackgroundFlex addressView'>
+      <image src='../../images/position.png' class='positionImg'></image>
+      <text>莘庄西南路</text>
+    </view>
+    <view class='hasBackgroundFlex telView'>
+      <image src='../../images/Tel.png' class='telImg'></image>
+      <text>021-638888</text>
+    </view>
+    <image src='../../images/dotted.png' class='borderView'>
+    </image> 
+    <view class='navBarView'>
+      <view class='navBar activeNavBar'>
+        <text>自助入住</text> 
+        <text class='bottomLine'></text>
+      </view>
+      <view class='navBar'>
+        <text>自助退房</text> 
+        <text class='bottomLine'></text>
+      </view>
+      <view class='navBar'>
+        <text>发票预约</text> 
+        <text class='bottomLine'></text>
+      </view>
+    </view>  
+  </view>
+  <view class='noBgView'>
+     <view class='floatView'>
+      <view style='padding: 0 21rpx;'>
+        <view class='orderNum'>
+          <text>预订单号：</text>
+          <text>15765523235</text>
+        </view>
+      </view>
+      <view class='roomBox'>
+        <view class='roomType'>
+          <view class='leftView'>
+            <text>豪房豪房</text> 
+            <text style='margin-left:47rpx;'>1间</text> 
+          </view>
+          <view class='rightView'>
+            <view>1002</view> 
+            <view class='selectViewBtn'>
+              <view>选房</view>
+              <image class='nextIcon' src='../../images/next.png'></image>
+            </view>
+          </view>
+        </view>
+        <view class='orderTime'>
+          <text>9月23日至9月25日</text>
+          <text>共2晚</text>
+        </view>
+      </view>
+      <view class='peopleInfo'>
+        <view class='peopleTitle'>入住人:</view>
+        <view class='dottedView'>
+          <view></view>
+        </view>
+        <view class='delView'>
+          <text class='delIcon'></text>
+          <view class='infoCont'>
+            <text >张三</text>
+            <text >身份证</text>
+            <text >410401199301121013</text> 
+            <text class='grayNextIcon'></text>
+          </view>
+           
+        </view>
+        <view class='addView'>
+          <text class='addIcon'></text>
+          <text>增加入住人</text>
+        </view>
+      </view>
+      <view class='btnView'>
+        <view>
+          <text>金额：</text>
+          <text class='redColor'>￥888</text>
+        </view>
+        <button class='purpleBtn' type="default">入住</button>
+      </view>
+    </view> 
+     <view class='floatView'>
+        <view class='imgView'>
+          <image src='../../images/noDD.png' style='width:170rpx;height:200rpx;'>
+          </image>
+        </view>
+        <view class='noText'>
+          没有与此手机号相关的订单
+        </view>
+    </view> 
+  </view>
+
+  <!-- 弹窗shadow  -->
+  <!-- <view class='shadow'>
+  </view>  
+  <view class='alertView'>
+    <view class='alertTitle'>
+      请确认
+    </view>
+    <view class='alertCont'>
+        <text>确定删除该入住人吗？</text>
+        <view class='alertBtnBox'>
+          <button class='purpleBtn' type='default'>是</button>
+          <button class='grayBtn' type='default'>否</button>
+        </view>
+    </view>
+  </view>  -->
+   <view class='personalCenter'>
+      <view class='personIcon'></view>
+      <view>我的</view>
+  </view> 
+</view>

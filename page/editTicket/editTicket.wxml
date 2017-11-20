@@ -1,0 +1,52 @@
+<!--page/editTicket/editTicket.wxml-->
+<view class='wrapper'>
+  <view class='invoiceType'>
+      <text style='color:#9b9b9b'>发票抬头类型：</text>
+      <radio-group class="radio-group">
+        <label>
+          <radio color='grey' />单位
+        </label>
+        <label>
+          <radio color='grey' />个人
+        </label>
+      </radio-group>
+  </view>
+  <view class='invoiceName'>
+      <view>发票抬头：</view>
+      <view class='inputAndBox'>
+        <input class='invoiceInput' placeholder='请输入发票抬头' placeholder-style='font-size:36rpx'/>
+        <view class='searchBox'>
+            <view>别样红1</view>
+            <view>别样红2</view>
+        </view>
+      </view>
+  </view> 
+  <view class='commonItem'>
+    <text>企业税号：</text>
+    <text class='fixedLength'>12345678M</text>
+  </view>
+  <view class='commonItem'>
+    <text>单位地址：</text>
+    <text class='fixedLength'>上海市闵行区秀文路898号西子国际中心1号楼12层</text>
+  </view>
+  <view class='commonItem'>
+    <text>注册电话：</text>
+    <text class='fixedLength'>021 8021 0101</text>
+  </view>
+  <view class='commonItem'>
+    <text>银行账户：</text>
+    <text class='fixedLength'>招商银行：</text>
+  </view>
+  <view class='commonItem'>
+    <text>银行账户：</text>
+    <text class='fixedLength'>7777777777777777777777</text>
+  </view>
+  <view class='commonItem' style='border:none;'>
+    <text>备注：</text>
+    <textarea class='fixedLength' style='margin-top:-5px;height:150rpx;'></textarea>
+  </view>
+  <view class='btnBox'>  
+      <button class='purpleBtn' type="default">确定</button>
+      <button class='grayBtn' type="default">返回</button>
+  </view>
+</view>

@@ -1,0 +1,57 @@
+<!--page/clientList/clientList.wxml-->
+<view class='wrapper'>
+    <view class='items'> 
+      <view class='showItem' style='{{txtStyle}}' bindtouchstart='touchS' bindtouchmove='touchM' bindtouchend='touchE'>
+        <view class='name'>
+          <text>张三</text>
+          <view class='downIcon'>
+          </view>
+        </view>
+        <view class='type'>
+          <view>
+            <text>类型：</text>
+            <text>企业</text>
+          </view>
+          <view class='typeCode'>
+            <text>税号：</text>
+            <text>1234567890345678</text>
+          </view>
+        </view>
+      </view> 
+      <view class='flaotBtnView'> 
+      <view class='delBtn'>删除</view>
+      <view class='reviseBtn'>修改</view>
+      </view> 
+    </view>
+    <!--灰色class grayBg ,-->
+    <view class='items'> 
+      <view class='showItem grayBg' style='{{txtStyle}}' bindtouchstart='touchS' bindtouchmove='touchM' bindtouchend='touchE'>
+        <view class='name'>
+          <text>张三</text>
+          <view class='downIcon'>
+          </view>
+        </view>
+        <view class='type'>
+          <view>
+            <text>类型：</text>
+            <text>企业</text>
+          </view>
+          <view class='typeCode'>
+            <text>税号：</text>
+            <text>1234567890345678</text>
+          </view>
+        </view>
+      </view> 
+      <view class='flaotBtnView'> 
+      <view class='delBtn'>删除</view>
+      <view class='reviseBtn'>修改</view>
+      </view> 
+    </view>
+    <view class='addView'>
+      <view class='addIcon'></view>
+      <text>左滑可删除</text>
+    </view>
+    <view class='btnBox'>
+      <button type='default'>添加发票抬头</button>
+    </view>
+</view>

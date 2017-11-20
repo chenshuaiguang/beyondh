@@ -1,0 +1,78 @@
+<!--page/selectRoom/selectRoom.wxml-->
+<view class='wrapper'>
+  <view class='hasBackgroundView'>
+    <view class='hasBackgroundFlex titleView'>
+      <text>安吉西山居酒店</text>
+      <image src='../../images/drop.png' class='dropImg'></image>
+    </view>
+    <view class='hasBackgroundFlex addressView'>
+      <image src='../../images/position.png' class='positionImg'></image>
+      <text>莘庄西南路</text>
+    </view>
+    <view class='hasBackgroundFlex telView'>
+      <image src='../../images/Tel.png' class='telImg'></image>
+      <text>021-638888</text>
+    </view> 
+  </view>
+  <view class='selectNav'>
+    <view>请选择房间</view>
+    <button type='default' class='selectBtn'>自动排房</button>
+  </view>
+  <view class='roomDetail'>
+    <view class='items'>
+      <view class='titleInfo'>楼层</view>
+      <view class='btnBox'>
+        <view class='btns'>全部</view>
+        <view class='btns activeBtn'>1</view>
+        <view class='btns'>2</view>
+        <view class='btns'>3</view>
+        <view class='btns'>4</view>
+        <view class='btns'>5</view>
+      </view>
+    </view>
+    <view class='items'>
+      <view class='titleInfo'>房间特征</view>
+      <view class='btnBox'>
+        <view class='btns'>全部</view>
+        <view class='btns activeBtn'>有窗</view>
+        <view class='btns'>无窗</view>
+        <view class='btns'>朝南</view>
+        <view class='btns'>近电梯</view>
+        <view class='btns'>近窗口</view>
+      </view>
+    </view>
+    <view class='items'>
+      <view class='titleInfo'>房间列表</view>
+      <view class='btnBox'>
+        <view class='btns'>1001</view>
+        <view class='btns activeBtn'>1002</view>
+        <view class='btns'>1003</view>
+        <view class='btns'>1004</view>
+        <view class='btns'>1005</view>
+        <view class='btns'>1006</view>
+      </view>
+    </view>
+    <view class='items'>
+      <view class='titleInfo'>房间列表</view>
+      <view class='btnBox'>
+        <view class='btns'>1001</view>
+        <view class='btns activeBtn'>1002</view>
+        <view class='btns'>1003</view>
+        <view class='btns'>1004</view>
+        <view class='btns'>1005</view>
+        <view class='btns'>1006</view>
+      </view>
+    </view>
+    <view class='items'>
+      <view class='titleInfo'>房间列表</view>
+      <view class='btnBox'>
+        <view class='btns'>1001</view>
+        <view class='btns activeBtn'>1002</view>
+        <view class='btns'>1003</view>
+        <view class='btns'>1004</view>
+        <view class='btns'>1005</view>
+        <view class='btns'>1006</view>
+      </view>
+    </view>
+  </view>
+</view>

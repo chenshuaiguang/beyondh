@@ -1,0 +1,68 @@
+<!--page/clientList/clientList.wxml-->
+<view class='wrapper'>
+  <checkbox-group>
+    <!--显示下拉内容时添加 grayBg ,-->
+    <view class='items'> 
+      <view class='showItem grayBg' style='{{txtStyle}}' bindtouchstart='touchS' bindtouchmove='touchM' bindtouchend='touchE'>
+        <label>
+          <view class='left'>
+            <checkbox value='2' color='#ffffff'/>
+            <text>张三</text>
+          </view>
+        </label>
+        <view class='right'>
+          <text>1123456789</text>
+          <view class='downIcon'>
+          </view>
+        </view>
+      </view> 
+      <view class='flaotBtnView'> 
+      <view class='delBtn'>删除</view>
+      <view class='reviseBtn'>修改</view>
+      </view> 
+      <!--下拉内容  -->
+       <view class='hideItem'>
+        <view class='hideItemView'>
+           <view>
+            <text>姓名：</text>
+            <text>某某</text>
+          </view>
+          <view>
+            <text>电话：</text>
+            <text>1234567</text>
+          </view>
+          <view>
+            <text>身份证：</text>
+            <text>88888888888888888</text>
+          </view> 
+        </view>
+      </view> 
+    </view>
+    <view class='items'> 
+      <view class='showItem grayBg' style='{{txtStyle}}' bindtouchstart='touchS' bindtouchmove='touchM' bindtouchend='touchE'>
+        <label>
+          <view class='left'>
+            <checkbox value='2' color='#ffffff'/>
+            <text>张三</text>
+          </view>
+        </label>
+        <view class='right'>
+          <text>1123456789</text>
+          <view class='downIcon'>
+          </view>
+        </view>
+      </view> 
+      <view class='flaotBtnView'> 
+      <view class='delBtn'>删除</view>
+      <view class='reviseBtn'>修改</view>
+      </view>  
+    </view>
+  </checkbox-group>
+  <view class='addView'>
+    <view class='addIcon'></view>
+      <text>左滑可删除</text>
+    </view>
+    <view class='btnBox'>
+      <button type='default'>添加发票抬头</button>
+    </view>
+</view>

@@ -1,0 +1,42 @@
+<!--page/mine/mine.wxml-->
+<view class='wrapper'>
+  <view class='topView'>
+    <view class='left'></view>
+    <view class='right'>
+      <view>Matt James</view>
+      <button type='default' class='reviseBtn'>修改资料</button>
+    </view>
+  </view>
+  <view class='itemsView'>
+    <view class='lists'>
+        <view class='orderIcon'></view>
+        <view class='info'>
+            <view class='grayColor'>订单信息</view>
+            <view class='flexView'>
+              <view>我的酒店订单</view>
+              <view class='grayIcon'></view>
+            </view>
+        </view>
+    </view>
+    <view class='lists'>
+        <view class='contactIcon'></view>
+        <view class='info'>
+            <view class='grayColor'>联系人信息</view>
+            <view class='flexView'>
+              <view>我的常用联系人</view>
+              <view class='grayIcon'></view>
+            </view>
+        </view>
+    </view>
+    <view class='lists' style='border:none;'>
+        <view class='invoiceIcon'></view>
+        <view class='info'>
+            <view class='grayColor'>发票信息</view>
+            <view class='flexView'>
+              <view>我的发票</view>
+              <view class='grayIcon'></view>
+            </view>
+        </view>
+    </view>
+  </view>
+</view>

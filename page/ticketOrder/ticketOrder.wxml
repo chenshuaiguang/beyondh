@@ -1,0 +1,163 @@
+<!--page/selfHelpCheckIn/selfHelpCheckIn.wxml-->
+<view>
+  <view class='hasBackgroundView'>
+    <view class='hasBackgroundFlex titleView'>
+      <text>安吉西山居酒店</text>
+      <image src='../../images/drop.png' class='dropImg'></image>
+    </view>
+    <view class='hasBackgroundFlex addressView'>
+      <image src='../../images/position.png' class='positionImg'></image>
+      <text>莘庄西南路</text>
+    </view>
+    <view class='hasBackgroundFlex telView'>
+      <image src='../../images/Tel.png' class='telImg'></image>
+      <text>021-638888</text>
+    </view>
+    <image src='../../images/dotted.png' class='borderView'>
+    </image> 
+    <view class='navBarView'>
+      <view class='navBar'>
+        <text>自助入住</text> 
+        <text class='bottomLine'></text>
+      </view>
+      <view class='navBar activeNavBar'>
+        <text>自助退房</text> 
+        <text class='bottomLine'></text>
+      </view>
+      <view class='navBar'>
+        <text>发票预约</text> 
+        <text class='bottomLine'></text>
+      </view>
+    </view>  
+  </view>
+  <view class='noBgView'>
+    <view class='floatView'>
+      <view style='padding: 0 21rpx;'>
+        <view class='orderNum ticketOrderNum'>
+          <text>发票抬头类型：</text>
+          <radio-group >
+            <label>
+              <radio color="grey" />单位
+            </label>
+            <label>
+              <radio color="grey" />个人
+            </label>
+          </radio-group>
+        </view>
+      </view>
+      <view class='ticketInvoiceView'>
+        <view class='ticketInvoice'>
+          <text>发票抬头：</text>
+          <input type='text' placeholder='单位名称 (必填)'               placeholder-style='color:#d4d4d4'/>
+        </view>
+        <view class='remark'>
+          <text>备注：</text> 
+          <textarea></textarea>
+        </view>
+      </view>
+      <view style='padding: 0 21rpx;'>
+        <view class='orderNum'>
+          <text>预订单号：</text>
+          <text>12345678</text>
+        </view>
+      </view>
+      <view style='padding: 0 21rpx;'>
+        <view class='roomInfo'>
+          <text>房间号：</text>
+          <text class='purpleColor'>1001</text>
+          <text class='peoName'>入住人：</text>
+          <text class='purpleColor'>某某某</text>
+        </view>
+      </view>
+      <view class='roomBox'>
+        <view class='roomType'>
+          <view class='leftView'>
+            <text>豪房豪房</text> 
+            <text style='margin-left:47rpx;'>1间</text> 
+          </view>
+        </view>
+        <view class='orderTime'>
+          <text>9月23日至9月25日</text>
+          <text>共2晚</text>
+        </view>
+      </view>
+      <view class='peopleInfo consumeInfo'>
+        <view class='peopleTitle consumeTitle'>
+          <text>费用明细:</text>
+          <!--费用明细隐藏时使用downIcon  -->
+           <!-- <view class='downIcon'></view>  -->
+           <view class='upIcon'></view> 
+        </view>
+        <view style='padding:0 21rpx;background:#f6f6f6'>
+          <view class='dashedIcon'></view>
+        </view>
+        <view class='detailConsume'>
+          <view class='listItem'>
+            <view class='leftItem'>
+              <view>房费</view>
+            </view>
+            <view class='rightItem'>
+              <view class='nightNum'>1晚</view>
+              <view>280.55</view>
+            </view>
+          </view>
+          <view class='listItem'>
+            <view class='leftItem'>
+              <view>早餐</view>
+            </view>
+            <view class='rightItem'>
+              <view class='nightNum'>1早</view>
+              <view>280.55</view>
+            </view>
+          </view>
+          <view style='padding:0 21rpx;background:#f6f6f6'>
+            <view class='dashedIcon'></view>
+          </view>
+          <view  class='cashView'>
+            <text>现金</text>
+            <text>100.00</text>
+          </view>
+        </view>
+        <view class='consumeView'>
+          <view>
+             <text>实际消费：</text>
+             <text>280.12</text>
+          </view>
+          <view class='actualPay'>
+             <text>实际付款：</text>
+             <text>280.12</text>
+          </view>
+          <view>
+             <text>当前欠款：</text>
+             <text class='redColor'>280.12</text>
+          </view>
+        </view>
+      </view>
+      <view class='btnView ticketBtn'>
+        <button class='purpleBtn' type="default">确定</button> 
+        <!--已预约按钮  -->
+        <!-- <button class='grayBtn' type="default">已预约</button> -->
+      </view>
+    </view>
+  </view>
+
+  <!-- 弹窗shadow  -->
+  <!-- <view class='shadow'>
+  </view>  
+  <view class='alertView'>
+    <view class='alertTitle'>
+      请确认
+    </view>
+    <view class='alertCont'>
+        <text>确定删除该入住人吗？</text>
+        <view class='alertBtnBox'>
+          <button class='purpleBtn' type='default'>是</button>
+          <button class='grayBtn' type='default'>否</button>
+        </view>
+    </view>
+  </view>  -->
+   <view class='personalCenter'>
+      <view class='personIcon'></view>
+      <view>我的</view>
+  </view> 
+</view>

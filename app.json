@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "page/test/test",
+    "page/normalPeoList/normalPeoList",
+    "page/myTicket/myTicket",
+    "page/mine/mine",
+    "page/clientList/clientList",
+    "page/selfInfo/selfInfo",
+    "page/hotelOrder/hotelOrder",
+    "page/editTicket/editTicket",
+    "page/selectRoom/selectRoom",
+    "page/successTicket/successTicket",
+    "page/successCheckOut/successCheckOut",
+    "page/successCheckIn/successCheckIn",
+    "page/selfHelpCheckIn/selfHelpCheckIn",
+    "page/clientInfo/clientInfo",
+    "page/selfHelpCheckOut/selfHelpCheckOut",
+    "page/ticketOrder/ticketOrder",
+    "page/validate/validate",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,30 @@
+<!--page/validate/validate.wxml-->
+<view class="tel_img"></view>
+
+<!--<view class="form-wrap">
+    <view class="flex input_tit">
+        <text>手机号：</text>
+    </view>
+    <view class="input-box tel_num_line">
+        <input type="text" placeholder="请输入手机号"/>
+    </view>
+</view>
+<view class="btn-wrap">
+    <button size="default" type="default">下一步</button>
+</view>-->
+
+<view class="form-wrap">
+    <view class="flex input_tit">
+        <text>验证码：</text>
+        <text class="send">重新发送</text>
+    </view>
+    <view class="input-box flex v_code">
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+    </view>
+</view>
+<view class="btn-wrap">
+    <button size="default" type="default">确 定</button>
+</view>

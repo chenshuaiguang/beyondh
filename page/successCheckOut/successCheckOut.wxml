@@ -1,0 +1,14 @@
+<!--page/successCheckOut/successCheckOut.wxml-->
+<view>
+  <view class='imgBox'>
+    <view class='img'>
+    </view>
+  </view>
+  <view class='textView'>
+    <text>退房成功！请到前台归还房卡。</text>
+  </view>
+  <view class='btnBox'>  
+      <button class='purpleBtn' type="default">发票预约</button>
+      <button class='grayBtn' type="default">返回</button>
+  </view>
+</view> 

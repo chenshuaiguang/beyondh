@@ -1,0 +1,45 @@
+/* page/editTicket/editTicket.wxss */
+.wrapper{
+  padding: 20rpx;
+  font-size: 36rpx;
+  color: #666666;
+}
+.invoiceType{
+  display: flex;
+  justify-content: space-between;
+  padding: 25rpx 20rpx;
+  border-bottom: 1px #e5e5e5 solid;
+}
+radio .wx-radio-input{
+  width: 15px;
+  height: 15px;
+}
+.invoiceName{
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1px dashed #e5e5e5;
+}
+.inputAndBox{
+  flex:1;
+}
+.invoiceInput{
+  margin-top: 4px;
+   /* height: 40px;  */
+}
+.searchBox{
+  height: 185rpx;
+  color: #9b9b9b;
+}
+.commonItem{
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1px dashed #e5e5e5;
+}
+.fixedLength{
+  flex:1;
+}
+.btnBox{
+  padding: 20rpx 20rpx 50rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+}

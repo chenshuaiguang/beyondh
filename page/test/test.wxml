@@ -1,0 +1,32 @@
+<!--page/clientList/clientList.wxml-->
+<view class='wrapper'>
+  <checkbox-group>
+    <view class='items' wx:for="{{list}}" wx:key="{{index}}"> 
+    <!-- style='{{txtStyle}}' -->
+      <view class='showItem grayBg' data-index="{{index}}" style='{{item.style}}' bindtouchstart='touchS' bindtouchmove='touchM' bindtouchend='touchE'>
+        <label>
+          <view class='left'>
+            <checkbox value='2' color='#ffffff'/>
+            <text>张三</text>
+          </view>
+        </label>
+        <view class='right'>
+          <text>1123456789</text>
+          <view class='downIcon'>
+          </view>
+        </view>
+      </view> 
+      <view class='flaotBtnView'> 
+      <view class='delBtn'>删除</view>
+      <view class='reviseBtn'>修改</view>
+      </view>  
+    </view>
+  </checkbox-group>
+  <view class='addView'>
+    <view class='addIcon'></view>
+      <text>左滑可删除</text>
+    </view>
+    <view class='btnBox'>
+      <button type='default'>添加发票抬头</button>
+    </view>
+</view>

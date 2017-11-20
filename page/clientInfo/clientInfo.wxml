@@ -1,0 +1,51 @@
+<!--page/clientInfo/clientInfo.wxml-->
+<view class='wrapper'>
+  <view class='infoView'>
+    <view class='infoItem'>
+      <view class='headIcon'></view>
+      <view class='inputBox'>
+        <view style='margin-bottom:15rpx;'>姓名：<text class='redColor'>*</text></view>
+        <view>
+          <input placeholder='请输入您的姓名' placeholder-style="color:#dadada;font-size:36rpx;" />
+        </view>
+      </view>
+    </view>
+    <view class='infoItem borderItem'>
+      <view class='phoneIcon'></view>
+      <view class='inputBox'>
+        <view style='margin-bottom:15rpx;'>手机号：<text class='redColor'>*</text></view>
+        <view>
+          <input placeholder='请输入您的手机号' placeholder-style="color:#dadada;font-size:36rpx;" />
+        </view>
+      </view>
+    </view>
+    <view class='infoItem borderItem'>
+      <view class='idTypeIcon'></view>
+      <view class='inputBox'>
+        <view style='margin-bottom:15rpx;'>证件类型：<text class='redColor'>*</text></view>
+        <view class='idType'>
+          <view class='idTypeName'>身份证</view>
+          <view class='grayNextIcon'></view>
+        </view>
+      </view>
+    </view>
+    <view class='infoItem borderItem'>
+      <view class='idIcon'></view>
+      <view class='inputBox'>
+        <view style='margin-bottom:15rpx;'>证件号码：<text class='redColor'>*</text></view>
+        <view>
+          <input placeholder='请输入您的证件号码' placeholder-style="color:#dadada;font-size:36rpx;" />
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='attenView redColor'>
+    <view class='attendIcon'>
+    </view>
+    <view>请输入正确的姓名</view>
+  </view>
+  <view class='bottomView'>
+    <button class='purpleBtn' type="default">确定</button>
+    <button class='seaBlueBtn' type="default">重置</button>
+  </view>
+</view>
