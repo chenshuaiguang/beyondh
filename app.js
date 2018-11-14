@@ -22,12 +22,10 @@ App({
     }
   },
   globalData:{
-
+// 11111111
     userInfo:null
-    
+// 111
   }
   // test1:{
-
-    // name:1111
   // }
 })
