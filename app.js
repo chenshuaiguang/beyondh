@@ -25,11 +25,7 @@ App({
     userInfo:null
   }
   // test:{
-<<<<<<< HEAD
   //   name:1,
         // name:2
-=======
-  //   name:1
->>>>>>> 255620754ca950efb91855f5cccf230abf98a698
   // }
 })
