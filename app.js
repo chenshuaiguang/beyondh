@@ -25,6 +25,6 @@ App({
     userInfo:null
   }
   // test1:{
-    
+    // name:1
   // }
 })
