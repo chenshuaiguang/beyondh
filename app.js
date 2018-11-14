@@ -24,4 +24,7 @@ App({
   globalData:{
     userInfo:null
   }
+  // test:{
+  //   name:1
+  // }
 })
