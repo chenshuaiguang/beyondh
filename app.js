@@ -22,7 +22,9 @@ App({
     }
   },
   globalData:{
+
     userInfo:null
+    
   }
   // test1:{
 
