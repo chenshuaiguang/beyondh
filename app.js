@@ -23,8 +23,6 @@ App({
   },
   globalData:{
     1
-    2
-    3
 // 11111111
     userInfo:null
 // 111
