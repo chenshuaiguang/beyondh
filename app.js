@@ -22,6 +22,7 @@ App({
     }
   },
   globalData:{
+    111
 // 11111111
     userInfo:null
 // 111
