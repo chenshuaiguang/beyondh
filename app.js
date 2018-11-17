@@ -25,7 +25,6 @@ App({
   globalData:{
     11
     111
-    222
     333
 // 11111111
     userInfo:null
